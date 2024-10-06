@@ -1,0 +1,37 @@
+services:
+  accounts:
+    image: "nirakarasha/accounts:latest"
+    container_name: accounts-ms
+    ports:
+      - 8080:8081
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - ibank
+  loans:
+    image: "nirakarasha/loans:latest"
+    container_name: loans-ms
+    ports:
+      - 8090:8082
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - ibank
+  cards:
+    image: "nirakarasha/cards:latest"
+    container_name: cards-ms
+    ports:
+      - 9090:8083
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - ibank
+networks:
+  ibank:
+    driver: "bridge"
