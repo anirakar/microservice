@@ -16,3 +16,13 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+build.version: 1.0
+
+accounts:
+  message: "Welcome to MiniBank accounts related local APIs "
+  contactDetails:
+    name: "Nirakar Asha - Developer"
+    email: "nirakar.asha@gmail.com"
+  onCallSupport:
+    - (011) 222-1234
