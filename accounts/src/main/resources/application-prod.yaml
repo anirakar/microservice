@@ -1,0 +1,9 @@
+build.version: 1.0
+
+accounts:
+  message: "Welcome to MiniBank accounts related PROD APIs "
+  contactDetails:
+    name: "Alex week - PROD Support"
+    email: "alex.week@test.com"
+  onCallSupport:
+    - (022) 333-1234

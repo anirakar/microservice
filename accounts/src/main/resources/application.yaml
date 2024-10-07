@@ -16,11 +16,14 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  profiles:
+    active:
+      - prod
 
-build.version: 1.0
+build.version: 3.0
 
 accounts:
-  message: "Welcome to MiniBank accounts related local APIs "
+  message: "Welcome to MiniBank accounts related Local APIs "
   contactDetails:
     name: "Nirakar Asha - Developer"
     email: "nirakar.asha@gmail.com"

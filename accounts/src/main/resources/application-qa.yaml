@@ -1,0 +1,9 @@
+build.version: 2.0
+
+accounts:
+  message: "Welcome to MiniBank accounts related QA APIs "
+  contactDetails:
+    name: "Mira Patel- Tester"
+    email: "mira.patel@test.com"
+  onCallSupport:
+    - (011) 444-1234
