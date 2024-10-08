@@ -40,6 +40,14 @@ create an image using Dockerfile
 docker build . -t <docker-hub-username>/<image-name>:<version>
 ```
 
+### Encryption and Decryption
+http://<config-server>/encrypt
+![img.png](assets/encrypt.png)
+
+Note - add {cipher} prefix to differentiate between a plain text value and a encrypted value
+
+http://<config-server>/decrypt
+
 ### Docker commands
 
 | Command                              | Description                                                       |

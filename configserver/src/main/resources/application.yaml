@@ -1,6 +1,9 @@
 server:
   port: 8888
 
+encrypt:
+  key: "23DRF879JKLA0987BASWQ674FTRYIQ3091F9"
+
 spring:
   application.name: configserver
   profiles:
