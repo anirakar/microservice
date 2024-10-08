@@ -1,0 +1,9 @@
+build.version: 2.0
+
+loans:
+  message: "Welcome to MiniBank loans related QA APIs "
+  contactDetails:
+    name: "John- Tester"
+    email: "john@test.com"
+  onCallSupport:
+    - (011) 444-1234

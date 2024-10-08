@@ -1,0 +1,9 @@
+build.version: 1.0
+
+loans:
+  message: "Welcome to MiniBank loans related PROD APIs "
+  contactDetails:
+    name: "Smith - PROD Support"
+    email: "smith@test.com"
+  onCallSupport:
+    - (022) 333-1234

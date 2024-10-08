@@ -1,0 +1,9 @@
+build.version: 1.0
+
+cards:
+  message: "Welcome to MiniBank cards related PROD APIs "
+  contactDetails:
+    name: "Andrew - PROD Support"
+    email: "andrew@test.com"
+  onCallSupport:
+    - (022) 333-1234
