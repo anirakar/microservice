@@ -1,0 +1,9 @@
+build.version: 3.0
+
+cards:
+  message: "Welcome to MiniBank loans related Local APIs "
+  contactDetails:
+    name: "Nirakar Asha - Developer"
+    email: "nirakar.asha@gmail.com"
+  onCallSupport:
+    - (011) 222-1234

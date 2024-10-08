@@ -3,6 +3,9 @@ server:
 
 spring:
   application.name: cards
+  profiles:
+    active:
+      - prod
   datasource:
     url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
@@ -16,16 +19,6 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  profiles:
-    active:
-      - prod
+  config:
+    import: "optional:configserver:http://localhost:8888"
 
-  build.version: 3.0
-
-  cards:
-    message: "Welcome to MiniBank cards related Local APIs "
-    contactDetails:
-      name: "Nirakar Asha - Developer"
-      email: "nirakar.asha@gmail.com"
-    onCallSupport:
-      - (011) 222-1234
